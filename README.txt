@@ -1,4 +1,5 @@
-﻿Some inspiration of our STEM User Interface design came from details of Mary Agnes Chase’s life. We included leaves in the design of our header because she was a botanist. We were also inspired by her world travel over the course of her career, so we created a map that would show her location based on the year of her life. Our page effectively implements the 8 Golden Rules:
+**This was the first homework assignment for CS220 we were instructed to create a multipage website for a historical female scientist**
+Some inspiration of our STEM User Interface design came from details of Mary Agnes Chase’s life. We included leaves in the design of our header because she was a botanist. We were also inspired by her world travel over the course of her career, so we created a map that would show her location based on the year of her life. Our page effectively implements the 8 Golden Rules:
 
 Strive for consistency- Our web page features consistent font, Sans Serif, the most readable digital font. The color scheme (lavender, green, white) and overall style are also consistent throughout the pages. 
 
