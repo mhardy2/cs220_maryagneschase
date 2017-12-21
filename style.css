@@ -1,0 +1,116 @@
+/*General Styling*/
+body{
+width: 90%;
+margin:auto;
+font-family: "Helvetica", sans-serif;
+}
+footer{
+  width:100%;
+  clear:both;
+}
+.contentbackground{
+  background-color: #53785e;
+  padding: 20px;
+  border-radius: 8px;
+}
+.text{
+    background-color:#e9d3f0;
+    width: 100%;
+    margin: auto;
+    border-radius: 2px;
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+/*Header image styling*/
+#m_a_c_header{
+  width: 100%;
+}
+
+/*Nav button styling*/
+#main_nav ul {
+  padding: 0; font-weight: bold;
+  list-style-type: none;
+}
+
+#main_nav li a{
+   display: block;
+   margin: 6px;
+   padding: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+   color: #222;
+   background-image: -webkit-linear-gradient(top, #f8f8f8 0, #d4d4d4 100%);
+   background-image: linear-gradient(to bottom, #f8f8f8 0, #d4d4d4 100%);
+   border: 1px solid #666;
+}
+nav li:active {
+  background-color: #ccc;
+  background-image: none;
+  box-shadow: inset 0 3px 3px rgba(0, 0, 0, .2);
+}
+
+/*Home page image slideshow*/
+#slideshow{
+  width: 100%;
+  height: 420px;
+  background-color: #53785e;
+  border-radius: 8px;
+  margin: auto;
+  text-align: center;
+}
+
+#slide{
+  height: 400px;
+  max-width: 90%;
+  margin: 10px 0px 10px 0px;
+}
+
+/*Background page styling*/
+#slidercontainer {
+    width: 100%; /* Width of the outside container */
+    text-align: left;
+}
+
+/* The slider itself */
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 98%;
+    height: 25px;
+    background: #ccfff4;
+    outline: none;
+    opacity: 2;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 10px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 45px;
+  height:35px;
+  background: #53785e;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#infoContainer{
+  text-align: center;
+  background-color:#e9d3f0;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 1px;
+}
+#backgroundBlurb{
+  width: 100%;
+  margin:auto;
+}
+#mapContainer{
+  width: 100%;
+}
+#actPhoto{
+  width:100%;
+}

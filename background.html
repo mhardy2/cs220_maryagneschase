@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-webapp-status-bar-style" content="black">
+  <title> Background </title>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+  <div id="content">
+    <div>
+      <a href="home.html"><img  id="m_a_c_header" src="m_a_c_header.jpg"></img></a>
+    </div>
+
+
+    <!-- Navigation buttons -->
+    <nav id="main_nav">
+      <ul>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="work.html">Work and Publications</a></li>
+        <li><a href="activism.html">Activism</a></li>
+      </ul>
+    </nav>
+
+    <div class="contentbackground">
+      <div class="text">
+        <p>Mary Agnes Chase was born in Illinois to an industrious mother and
+          an Irish, blacksmith father. Her father died when she was just two
+          years old. As a young woman working at the local newspaper, Chase
+          married William Ingraham Chase the editor of the paper. Tragically
+          William died one year after marrying Mary. After her tragic loss
+          Mary moved in with her brother in law and began on her journey as
+          a botanist. </p>
+        </div>
+
+        <div id="infoContainer">
+          <div id="slidercontainer">
+            <h3>Explore Chase's life through this interactive timeline:</h3>
+            <input type="range" min="0" max="8" value="0" class="slider" id="timeline">
+          </div>
+
+          <h3 id="displayRange"></h3>
+          <div id="mapContainer">
+            <div id="basic_map" style="width:380px;height:300px;margin:auto;"></div>
+          </div>
+          <div id="backgroundBlurb">
+            <p id="displayBlurb"></p>
+          </div>
+        </div>
+
+        <footer>CS220: Miranda and Tabia &copy; 2017</footer>
+      </div>
+
+      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDscz3rZBtTGbYFJvk2A1ANhbf8eqbB7Kc&callback=initMap"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+      <script src="m_a_c_script.js"></script>
+
+    </body>
+    </html>
